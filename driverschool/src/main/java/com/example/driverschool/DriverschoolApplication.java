@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DriverschoolApplication {
 
     public static void main(String[] args) {
+        System.out.println( "我们" );
         SpringApplication.run(DriverschoolApplication.class, args);
     }
 
